@@ -1,0 +1,63 @@
+@mixin border($val){
+	border-radius:$val;
+	padding:$val;
+}
+
+$border:2px solid #000;
+$border_r:25px;
+$padding:10px;
+
+
+
+header{
+
+color: white;
+text-align:center;
+
+}
+nav{
+	align: center;
+}
+
+body{
+background-color: #CED0CB;
+
+
+}
+footer{
+	text-align: center;
+
+}
+
+.mdl{
+	position: relative;
+  left:300px;
+	}
+
+	.contact{
+	@include border(15px);
+	border :$border;
+position: relative;
+left: 25%
+
+}
+	input{
+		width: 30%;
+	}
+
+	.video{
+	border :$border;
+	border-radius: $border_r;
+	padding: $padding;
+	position: relative;
+	width: 40%;
+	}
+
+	.audio{
+	border :$border;
+	border-radius: $border_r;
+	padding: $padding;
+		position: absolute;
+		top: 669px;
+		left: 60%;
+	}

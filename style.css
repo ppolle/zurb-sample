@@ -1,0 +1,43 @@
+header {
+  color: white;
+  text-align: center; }
+
+nav {
+  align: center; }
+
+body {
+  background-color: #CED0CB; }
+
+footer {
+  text-align: center; }
+
+.mdl {
+  position: relative;
+  left: 300px; }
+
+.contact {
+  border-radius: 15px;
+  padding: 15px;
+  border: 2px solid #000;
+  position: relative;
+  left: 25%; }
+
+input {
+  width: 30%; }
+
+.video {
+  border: 2px solid #000;
+  border-radius: 25px;
+  padding: 10px;
+  position: relative;
+  width: 40%; }
+
+.audio {
+  border: 2px solid #000;
+  border-radius: 25px;
+  padding: 10px;
+  position: absolute;
+  top: 669px;
+  left: 60%; }
+
+/*# sourceMappingURL=style.css.map */

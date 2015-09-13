@@ -1,0 +1,49 @@
+
+ul{
+padding:0;
+list-style-type: none;
+margin:0;
+}
+
+header{
+
+color: white;
+text-align:center;
+
+}
+nav{
+	align: center;
+}
+
+body{
+background-color: #CED0CB;
+
+
+}
+footer{
+	text-align: center;
+
+}
+
+.mdl{
+	position: relative;
+  left:300px;
+	}
+
+	.contact{
+position: relative;
+left: 25%
+
+	}
+	input{
+		width: 30%;
+	}
+
+	.video{
+		position: relative;
+	}
+	.audio{
+		position: absolute;
+		top: 50px;
+		left: 50%;
+	}
